@@ -5,6 +5,13 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
+:root {
+    --primary-color: rgba(85, 126, 225, 0.3);
+    --secondary-color: rgba(22, 49, 120, 0.3);
+    --background-color: #000;
+    /* Add your custom colors */
+}
+
 body {
     min-height: 100vh;
     background: #000;
@@ -157,9 +164,3 @@ body {
     .name { font-size: 24px; }
 }
 
-:root {
-    --primary-color: rgba(85, 126, 225, 0.3);
-    --secondary-color: rgba(22, 49, 120, 0.3);
-    --background-color: #000;
-    /* Add your custom colors */
-}
