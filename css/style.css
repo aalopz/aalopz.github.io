@@ -164,3 +164,7 @@ body {
     .name { font-size: 24px; }
 }
 
+body {
+    overflow-y: scroll; /* Always show vertical scrollbar */
+}
+
