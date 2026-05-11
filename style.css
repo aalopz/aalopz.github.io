@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  overflow-y: auto;
+}
+.card {
+display: grid;
+justify-content: center;
+justify-items: center;
+align-items: center;
+text-align: center;
+grid-row-gap: 1rem;
+margin: 2rem auto;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 5%;
+width: min(90vw, 600px);
+max-width: 600px;
+padding: clamp(1rem, 3vw, 2rem);
+border: 5px solid rgba(0, 0, 0, 0.384);
+height: fit-content;
+}
+.pfp {
+width: min(40vw, 200px);
+height: auto;
+aspect-ratio: 1 / 1;
+border-radius: 50%;
+border: 5px solid rgba(0, 0, 0, 0.384);
+}
+.pfp-container {
+display: grid;
+place-items: center;
+max-width: fit-content;
+max-height: fit-content;
+}
