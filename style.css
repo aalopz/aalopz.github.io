@@ -46,3 +46,11 @@ place-items: center;
 max-width: fit-content;
 max-height: fit-content;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.links {
+    display: flex;
+    gap: 5px;
+}
