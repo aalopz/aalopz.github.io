@@ -66,6 +66,9 @@ a {
 .name {
     margin: 0;
 }
+p {
+    margin: 0;
+}
 .scroll-track {
   width: 100%;
   max-width: 100%;
